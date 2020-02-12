@@ -1,0 +1,6 @@
+FROM openjdk:8-jdk-alpine
+VOLUME /tmp
+WORKDIR /app
+COPY target/CasaCambio.jar /app
+EXPOSE 8080
+CMD ["java","-jar","CasaCambio.jar"]

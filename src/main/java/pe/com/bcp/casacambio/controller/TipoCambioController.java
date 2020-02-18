@@ -1,13 +1,12 @@
 package pe.com.bcp.casacambio.controller;
 
 import io.reactivex.Observable;
-import io.reactivex.Single;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import pe.com.bcp.casacambio.domain.Moneda;
 import pe.com.bcp.casacambio.domain.TipoCambio;
-import pe.com.bcp.casacambio.domain.TipoCambioRequest;
-import pe.com.bcp.casacambio.domain.TipoCambioResponse;
+import pe.com.bcp.casacambio.model.TipoCambioRequest;
+import pe.com.bcp.casacambio.model.TipoCambioResponse;
 import pe.com.bcp.casacambio.service.TipoCambioService;
 import pe.com.bcp.casacambio.util.Constantes;
 

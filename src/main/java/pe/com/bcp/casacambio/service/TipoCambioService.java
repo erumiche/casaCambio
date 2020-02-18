@@ -1,14 +1,13 @@
 package pe.com.bcp.casacambio.service;
 
 import io.reactivex.Observable;
-import io.reactivex.functions.Action;
 import io.reactivex.functions.Consumer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import pe.com.bcp.casacambio.domain.Moneda;
 import pe.com.bcp.casacambio.domain.TipoCambio;
-import pe.com.bcp.casacambio.domain.TipoCambioRequest;
-import pe.com.bcp.casacambio.domain.TipoCambioResponse;
+import pe.com.bcp.casacambio.model.TipoCambioRequest;
+import pe.com.bcp.casacambio.model.TipoCambioResponse;
 import pe.com.bcp.casacambio.repository.MonedaRepository;
 import pe.com.bcp.casacambio.repository.TipoCambioRepository;
 

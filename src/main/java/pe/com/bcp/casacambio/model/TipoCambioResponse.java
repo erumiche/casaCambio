@@ -1,4 +1,4 @@
-package pe.com.bcp.casacambio.domain;
+package pe.com.bcp.casacambio.model;
 
 public class TipoCambioResponse {
 
